@@ -4,16 +4,16 @@
 - MSHV: 2A202603255
 - Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: dpthao1810
-- Repo bài nộp (URL): <<>>
+- Repo bài nộp (URL): https://github.com/dpthao1810/K5-L23-Day08-2A202603255-DoanThiPhuongThaoAI-Assisted-Labeling.git
 - Commit chốt bài (hash): <<>>
-- Máy: Window, không có 
-- CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>
+- Máy: Windows 11, GPU (không có)
+- CVAT (Docker): 2.74.1
 
 ## Kết quả tóm tắt (điền cuối bài; số lấy từ `submission/qc/*`, kèm mẫu số)
 
-- Máy: accepted / edited / deleted: <<... / ... / ... (mẫu số: ... box máy)>>; added: <<... (mẫu số: ... đối tượng)>>
-- So với gold: precision / recall của **máy** <<... / ...>>
-- Bắt bẫy: <<.../12 = ...%>>
-- Thời gian: gán tay <<... phút/ảnh>>; duyệt có pre-label <<... phút/ảnh>>
-- Lỗi QC: <<...% theo ảnh (.../...)>>, <<...% theo đối tượng (.../...)>>
-- **Quyết định:** <<Release / Hold / Rework>> — lý do một dòng: <<...>>
+- Máy: accepted / edited / deleted: 638 / 14 / 75 (mẫu số: 727 box máy); added: 30 (mẫu số: 682 đối tượng sau duyệt).
+- So với gold: precision / recall của máy 54.1% (46/85) / 88.5% (46/52) trên 4 ảnh. Cần kiểm tra thêm ảnh mới để xác nhận kết quả.
+- Bắt bẫy: 11/12 = 91.7%.
+- Thời gian: gán tay chưa có số liệu; duyệt có pre-label 120 phút / 24 ảnh = 5 phút/ảnh.
+- Lỗi QC: 0/5 ảnh, 0/127 đối tượng. Mẫu nhỏ nên chưa thể kết luận tỷ lệ lỗi của cả lô dưới 2%.
+- **Quyết định:** Release — không thấy lỗi trong 5 ảnh mẫu; cần kiểm tra thêm để chắc chắn hơn.
