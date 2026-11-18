@@ -66,7 +66,7 @@
 - **Giới hạn mẫu nhỏ**: chưa thể kết luận tỷ lệ lỗi của cả lô dưới 2% chỉ từ 5 ảnh mẫu.
 - Script đếm lỗi trong phiếu và số box; không xác nhận box có sát vật không, hoặc ảnh có vật bị bỏ sót không.
 
-**Quyết định: Release**, ngày 2026-11-18. Lý do: đã chốt câu hỏi calibration; QC không thấy lỗi trong 5 ảnh mẫu; bắt bẫy đạt 11/12 = 91.7% (cao hơn ngưỡng 80%). Mẫu chỉ gồm 5/24 ảnh nên cần kiểm tra thêm trước khi dùng nhãn.
+**Quyết định: Release**, ngày 2026-11-19. Lý do: đã chốt câu hỏi calibration; QC không thấy lỗi trong 5 ảnh mẫu; bắt bẫy đạt 11/12 = 91.7% (cao hơn ngưỡng 80%). Mẫu chỉ gồm 5/24 ảnh nên cần kiểm tra thêm trước khi dùng nhãn.
 
 ## 8. Ghi chú cá nhân
 
